@@ -2,6 +2,8 @@
 
 **Links: types-server/JSON parser API**
 
+> mix deps.get
+>
 > iex -S mix
 >
 > Shiva.elixir
