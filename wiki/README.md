@@ -3,6 +3,12 @@
 ※ 日本語で書きます。母国語なので、英語化はFireFoxブラウザのGoogle翻訳などでお願いします。
 
 ```markdown
+# npm
+npm install -g types-server
+
+# types-serverを起動後、別ウインドウを開く
+types 1337
+
 # Rubygems/sheltered-girlをインストール
 heat branch overdrive takkii overdrive main
 
