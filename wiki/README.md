@@ -60,5 +60,12 @@ Gistページです。
 iex(2)>
 ```
 
-_※ Elixir、JSONをデコード後出力しました。phoenixで使うための前処理途中です。_
+### 2つのプロジェクト
 
+```markdown
+「Darkness_Randa, Knight_Baron」
+
+今後、実装予定です。
+```
+
+_※ Elixir、JSONをデコード後出力しました。phoenixで使うための前処理途中です。_
