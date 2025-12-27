@@ -1,14 +1,6 @@
-# Shiva
+### Shiva
 
-**Links: types-server/JSON parser API**
-
-> mix deps.get
->
-> iex -S mix
->
-> Shiva.elixir
->
-> exit, Ctrl + C
+**Links: Wiki is [here](./wiki/README.md)**
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed
 by adding `shiva` to your list of dependencies in `mix.exs`:
