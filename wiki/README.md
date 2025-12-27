@@ -6,7 +6,11 @@
 # Rubygems/sheltered-girlをインストール
 heat branch overdrive takkii overdrive main
 
+# overdriveに移動
 cd overdrive && yarn install
+
+# overdrive/jsonで実行
+cd json && node collect.js
 
 mix deps.get
 
