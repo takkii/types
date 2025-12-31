@@ -24,10 +24,10 @@ cd .. && cd ..
 # 依存解消する
 mix deps.get
 
-# ① コマンドライン実行する
+# ① Windows Terminalで実行する
 mix run -e 'Shiva.elixir'
 
-# ② インタラクティブシェル内で実行する
+# ② JetBrains/Elixirプラグインで使用する
 iex -S mix
 
 > Shiva.elixir
