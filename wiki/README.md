@@ -125,12 +125,12 @@ Gistページです。
 記事やアナウンスの整理整頓をしました。少数で管理しています。
 ```
 
-### 2つのプロジェクト
+<s>2つのプロジェクト</s>
 
-```markdown
-「Darkness_Randa, Knight_Baron」
+<s>「Darkness_Randa, Knight_Baron」</s>
 
-今後、実装予定です。
-```
+<s>今後、実装予定です。</s>
 
-_※ Elixir、JSONライブラリを利用して出力しました。phoenixで使うための前処理です。_
+<s>Elixir、JSONライブラリを利用して出力しました。phoenixで使うための前処理です</s>
+
+※ [darknight](https://github.com/takkii/darknight)を実装しました。PhoenixでJSON処理は使いませんでした。
