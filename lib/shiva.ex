@@ -2,7 +2,7 @@ defmodule Shiva do
   def elixir do
     case HTTPoison.get("http://localhost:1337/datas") do
       {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->
-        {status, json} = JSON.decode(body)
+        {_status, json} = JSON.decode(body)
 
         Enum.each(
           [
