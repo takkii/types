@@ -27,3 +27,6 @@ shiva-*.tar
 
 # Ignore, Jetbrain setting folder.
 /.idea/
+
+# Ignore.
+mix.lock
