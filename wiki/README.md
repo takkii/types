@@ -1,7 +1,5 @@
 ### Shivaの使い方
 
-※ 母国語(日本語)で書きます。
-
 ```markdown
 # 依存解消する
 mix deps.get
@@ -22,16 +20,14 @@ iex -S mix
 ### 出力結果 (上部からインタラクティブシェル、下部はコマンドライン)
 
 ```elixir
-Interactive Elixir (1.19.4) - press Ctrl+C to exit (type h() ENTER for help)
-iex(1)> Shiva.elixir
-overdrive
-Welcome to overdrive project.
+newworld
+Welcome to newworld project.
 2025/11/03、現時点で人気のある私の※1 DTCL動画です。
 ※1 略 Developer Test Completed Log
 Neovim環境の構築することを止めました。
 → JetBrains製IDEsに移行のためです。
 「理由として挙げられる2点」
-1. 設定ファイルが多く調整が必要なこと。
+
 2. プラグインの入れ替えや仕様の変更に対応すること。
 ※ IDEsを使いましょう、時間が大事です。
 Copyright &copy; 2025 Takayuki Kamiyama.
@@ -59,26 +55,17 @@ Gistページです。
 以下省略が多いですが、形にすることで雰囲気を楽しめるようにしています。
 記事やアナウンスの整理整頓をしました。少数で管理しています。
 :ok
-iex(2)>
 ```
 
 ```elixir
-mix run -e 'Shiva.elixir'
-    warning: variable "status" is unused (if the variable is not meant to be used, prefix it with an underscore)
-    │
-  5 │         {status, json} = JSON.decode(body)
-    │          ~
-    │
-    └─ lib/shiva.ex:5:10: Shiva.elixir/0
-
-overdrive
-Welcome to overdrive project.
+newworld
+Welcome to newworld project.
 2025/11/03、現時点で人気のある私の※1 DTCL動画です。
 ※1 略 Developer Test Completed Log
 Neovim環境の構築することを止めました。
 → JetBrains製IDEsに移行のためです。
 「理由として挙げられる2点」
-1. 設定ファイルが多く調整が必要なこと。
+
 2. プラグインの入れ替えや仕様の変更に対応すること。
 ※ IDEsを使いましょう、時間が大事です。
 Copyright &copy; 2025 Takayuki Kamiyama.
