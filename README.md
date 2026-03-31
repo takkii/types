@@ -1,9 +1,7 @@
-### Shiva
+<div align="center">
+  <p><h1>Shiva is JSON parser project.</h1></p>
+</div>
 
-**Links: Wiki is [here](./wiki/README.md)**
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `shiva` to your list of dependencies in `mix.exs`:
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm).
+<div align="center">
+   <p><h3>Links: Wiki is <a href="./wiki/README.md">here</a>!</h3></p>
+</div>
