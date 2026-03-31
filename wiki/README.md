@@ -1,26 +1,8 @@
 ### Shivaの使い方
 
-※ 母国語(日本語)で書きます。英語などは、各自環境でお願いします。
+※ 母国語(日本語)で書きます。
 
 ```markdown
-# npmからtypes-serverをインストールする
-npm install -g types-server
-
-# types-serverを起動後、別ウインドウを開く
-types 1337
-
-# Rubygems/sheltered-girlをインストールする
-heat branch overdrive takkii overdrive main
-
-# overdriveに移動する
-cd overdrive && yarn install
-
-# overdrive/jsonで実行する
-cd json && node toss.js
-
-# 上階層に移動する
-cd .. && cd ..
-
 # 依存解消する
 mix deps.get
 
@@ -125,12 +107,4 @@ Gistページです。
 記事やアナウンスの整理整頓をしました。少数で管理しています。
 ```
 
-<s>2つのプロジェクト</s>
-
-<s>「Darkness_Randa, Knight_Baron」</s>
-
-<s>今後、実装予定です。</s>
-
-<s>Elixir、JSONライブラリを利用して出力しました。phoenixで使うための前処理です</s>
-
-※ [darknight](https://github.com/takkii/darknight)を実装しました。PhoenixでJSON処理は使いませんでした。
+※ Elixir、JSONパーサーを作成しました。
