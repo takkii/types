@@ -4,12 +4,16 @@ defmodule Shiva.MixProject do
   def project do
     [
       app: :shiva,
-      version: "0.0.1",
+      version: "0.0.2",
       elixir: "~> 1.19",
       start_permanent: Mix.env() == :prod,
-      deps: deps()
+      deps: deps(),
+      elixirc_options: [warnings_as_errors: warnings_as_errors(Mix.env())]
     ]
   end
+
+  defp warnings_as_errors(:test), do: false
+  defp warnings_as_errors(_), do: true
 
   # Run "mix help compile.app" to learn about applications.
   def application do
