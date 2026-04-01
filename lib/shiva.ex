@@ -4,6 +4,7 @@ defmodule Shiva do
       {:ok, %HTTPoison.Response{status_code: 200, body: body}} ->
         {_status, json} = JSON.decode(body)
 
+        # https://hexdocs.pm/elixir/1.12/Enum.html
         Enum.each(
           [
             json["name"],
@@ -44,10 +45,12 @@ defmodule Shiva do
           fn x -> IO.puts(x) end
         )
 
+        # https://hexdocs.pm/httpoison/HTTPoison.Response.html#content
       {:ok, %HTTPoison.Response{status_code: 404}} ->
         IO.puts("Not found :(")
 
-      {:error, %HTTPoison.Error{reason: reason}} ->
+        # https://hexdocs.pm/httpoison/HTTPoison.Error.html#content
+      {:error, %HTTPoison.Error{id: nil, reason: reason}} ->
         IO.inspect(reason)
     end
   end
